@@ -7,7 +7,8 @@ Xcursor.theme: dmz-aa
 XLock.usefirst: false
 XLock.echokeys: true
 
-*Background: rgb:14/13/0E
+!*Background: rgb:14/13/0E
+*Background: rgb:00/00/00
 *Foreground: rgb:B7/A9/80
 *BorderColor: rgb:99/8D/6B
 
