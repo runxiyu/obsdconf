@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+
+tput civis
+sleep=$(( 60 - $(date +'%S' | sed 's/^0//') ))
+while :; do
+	printf '%3s%% %s\r' "$(apm -l)" "$(date +'%a %H:%M')"
+	sleep $sleep
+	sleep=60
+done
