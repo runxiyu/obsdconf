@@ -76,7 +76,7 @@ unbind-mouse all
 bind-mouse 4-1 window-move
 bind-mouse 4-3 window-resize
 
-# fontname "Go Mono:size=11"
+fontname "monospace:size=10"
 borderwidth 1
 color inactiveborder rgb:4C/46/35
 color activeborder rgb:99/8D/6B

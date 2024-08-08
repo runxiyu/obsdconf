@@ -4,4 +4,13 @@
 
 PATH="$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin"
 ENV="$HOME/.config/kshrc"
-export PATH HOME TERM ENV
+EDITOR="vi"
+
+export PATH HOME TERM ENV EDITOR
+
+. "$ENV"
+
+if [ "$(tty)" = "/dev/ttyC0" ]
+then
+	startx
+fi
