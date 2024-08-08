@@ -1,0 +1,3 @@
+cert = /home/runxiyu/.local/share/secrets/catgirl.pem
+host = irc.runxiyu.org
+port = 2410
