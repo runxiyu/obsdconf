@@ -1,0 +1,2 @@
+alias uconf="git --git-dir=$HOME/.local/share/obsdconf.git --work-tree=$HOME"
+export GPG_TTY="$(tty)"

@@ -1,0 +1,7 @@
+# vim: filetype=gitignore
+.ccls-cache
+compile_commands.json
+\#*#
+*~
+.DS_Store
+__pycache__
