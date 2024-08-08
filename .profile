@@ -5,8 +5,10 @@
 PATH="$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin"
 ENV="$HOME/.config/kshrc"
 EDITOR="vi"
+LC_CTYPE=en_US.UTF-8
+export PATH HOME TERM ENV EDITOR LC_CTYPE
 
-export PATH HOME TERM ENV EDITOR
+export PASSWORD_STORE_DIR="$HOME/.local/share/password-store"
 
 . "$ENV"
 

@@ -2,9 +2,10 @@ sticky yes
 snapdist 10
 moveamount 10
 
-ignore clock
-autogroup 0 clock,XTerm
-gap 38 0 0 0
+ignore bsdclock
+autogroup 0 bsdclock,XTerm
+
+# gap 0 0 0 0
 
 unbind-key all
 bind-key 4-Return terminal
