@@ -15,5 +15,5 @@ export PASSWORD_STORE_DIR="$HOME/.local/share/password-store"
 
 if [ "$(tty)" = "/dev/ttyC0" ]
 then
-	startx
+	xinit
 fi
