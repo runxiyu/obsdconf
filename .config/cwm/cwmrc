@@ -67,7 +67,10 @@ bind-key 4S-minus window-htile
 
 wm fvwm /usr/X11R6/bin/fvwm
 wm twm /usr/X11R6/bin/twm
+wm rio /home/runxiyu/ext/plan9port/bin/rio
+wm dwm /home/runxiyu/infr/dwm/dwm
 
+bind-key 4-g menu-group
 bind-key 4S-r restart
 bind-key 4S-w menu-exec-wm
 bind-key 4S-q quit
