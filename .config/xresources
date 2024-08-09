@@ -9,7 +9,7 @@ XLock.echokeys: true
 
 !*Background: rgb:14/13/0E
 *Background: rgb:00/00/00
-*Foreground: rgb:B7/A9/80
+*Foreground: rgb:D7/C9/A0
 *BorderColor: rgb:99/8D/6B
 
 XTerm*utf8: true

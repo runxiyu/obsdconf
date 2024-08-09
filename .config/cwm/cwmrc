@@ -8,8 +8,8 @@ color inactiveborder rgb:4C/46/35
 color activeborder rgb:99/8D/6B
 color urgencyborder rgb:FF/00/00
 color menubg rgb:00/00/00
-color menufg rgb:B7/A9/80
-color font rgb:B7/A9/80
+color menufg rgb:D7/C9/A0
+color font rgb:D7/C9/A0
 color selfont rgb:14/13/0E
 
 ignore bsdclock
@@ -67,7 +67,7 @@ bind-key 4S-minus window-htile
 
 wm fvwm /usr/X11R6/bin/fvwm
 wm twm /usr/X11R6/bin/twm
-wm rio /home/runxiyu/ext/plan9port/bin/rio
+wm rio /home/runxiyu/bin/startrio
 wm dwm /home/runxiyu/infr/dwm/dwm
 
 bind-key 4-g menu-group

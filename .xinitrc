@@ -1,6 +1,6 @@
 if [ "rio" = "$1" ]
 then
-	exec rio
+	exec startrio
 else
 	xrdb -load "$HOME"/.config/xresources
 	# xsetroot -bitmap /usr/X11R6/include/X11/bitmaps/xsnow -bg '#14130E' -fg "#998D6B"
